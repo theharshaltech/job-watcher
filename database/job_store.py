@@ -23,7 +23,10 @@ def save_job(job):
 
         return True
 
-    except:
+    except Exception as e:
+
+        print("Duplicate Job Found")
 
         conn.close()
+
         return False

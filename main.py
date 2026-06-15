@@ -1,16 +1,10 @@
-from notifier.telegram_bot import send_notification
-
-send_notification(
-    "🚀 Job Watcher Started Successfully!"
-)
-
-print("Done")
-
 from scrapers.career_jobs import get_jobs
 from database.job_store import save_job
 from notifier.telegram_bot import send_notification
 
 jobs = get_jobs()
+
+print("Jobs Found:", jobs)
 
 for job in jobs:
 
