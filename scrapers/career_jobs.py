@@ -4,22 +4,32 @@ def get_jobs():
 
     jobs = []
 
-    try:
+    companies = [
+        ("Cognizant", "https://careers.cognizant.com/global/en"),
+        ("Infosys", "https://careers.infosys.com"),
+        ("Accenture", "https://www.accenture.com/in-en/careers"),
+        ("Wipro", "https://careers.wipro.com"),
+        ("Capgemini", "https://www.capgemini.com/careers")
+    ]
 
-        response = requests.get(
-            "https://careers.cognizant.com/global/en",
-            timeout=10
-        )
+    for company, url in companies:
 
-        if response.status_code == 200:
+        try:
 
-            jobs.append({
-                "company": "Cognizant",
-                "role": "Careers Page Reachable",
-                "link": "https://careers.cognizant.com/global/en"
-            })
+            response = requests.get(
+                url,
+                timeout=10
+            )
 
-    except Exception as e:
-        print("Error:", e)
+            if response.status_code == 200:
+
+                jobs.append({
+                    "company": company,
+                    "role": "Career Page Updated",
+                    "link": url
+                })
+
+        except Exception as e:
+            print(company, e)
 
     return jobs
