@@ -5,12 +5,16 @@ on:
     - cron: '0 * * * *'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   run:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
+    - name: Checkout Repository
+      uses: actions/checkout@v4
 
     - name: Setup Python
       uses: actions/setup-python@v5
@@ -22,5 +26,19 @@ jobs:
         pip install -r requirements.txt
 
     - name: Run Job Watcher
+      env:
+        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       run: |
         python main.py
+
+    - name: Commit and Push DB, Dashboard and Logs
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add jobs.db index.html
+        if [ -f logs/job_watcher.log ]; then
+          git add logs/job_watcher.log
+        fi
+        git commit -m "Auto-update: Database, Dashboard, and Logs [skip ci]" || echo "No changes to commit"
+        git push

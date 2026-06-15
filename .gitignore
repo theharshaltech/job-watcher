@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Local environment variables / secrets
+.env
+
+# Editor / IDE configuration
+.vscode/
+.idea/
+
+# Local scratch directory
+scratch/
