@@ -6,7 +6,7 @@ send_notification(
 
 print("Done")
 
-from scrapers.sample_jobs import get_jobs
+from scrapers.career_jobs import get_jobs
 from database.job_store import save_job
 from notifier.telegram_bot import send_notification
 
