@@ -6,6 +6,7 @@ def save_job(job):
     cursor = conn.cursor()
 
     try:
+
         cursor.execute(
             """
             INSERT INTO jobs(company, role, link)
@@ -19,13 +20,16 @@ def save_job(job):
         )
 
         conn.commit()
+
+        print("NEW JOB:", job["company"], "-", job["role"])
+
         conn.close()
 
         return True
 
     except Exception as e:
 
-        print("Duplicate Job Found")
+        print("DATABASE ERROR:", e)
 
         conn.close()
 
