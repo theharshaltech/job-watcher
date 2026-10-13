@@ -41762,3 +41762,33 @@
 2026-10-13 02:26:47 - INFO - Scraping complete. Total eligible jobs extracted: 0
 2026-10-13 02:26:47 - INFO - Total jobs returned from scraper: 0
 2026-10-13 02:26:47 - INFO - Execution finished. Found 0 new job alerts.
+2026-10-13 10:10:41 - INFO - =========================================
+2026-10-13 10:10:41 - INFO - AI Job Watcher service started.
+2026-10-13 10:10:41 - INFO - =========================================
+2026-10-13 10:10:41 - INFO - Scraping jobs for Cognizant...
+2026-10-13 10:10:44 - ERROR - Failed request for Cognizant: Status Code 429
+2026-10-13 10:10:44 - INFO - Scraping jobs for Infosys...
+2026-10-13 10:10:46 - INFO - Found 10 raw cards for Infosys
+2026-10-13 10:10:46 - INFO - Extracted 0 eligible jobs for Infosys
+2026-10-13 10:10:46 - INFO - Scraping jobs for Accenture...
+2026-10-13 10:10:49 - INFO - Found 10 raw cards for Accenture
+2026-10-13 10:10:49 - INFO - Extracted 0 eligible jobs for Accenture
+2026-10-13 10:10:49 - INFO - Scraping jobs for Wipro...
+2026-10-13 10:10:51 - ERROR - Failed request for Wipro: Status Code 429
+2026-10-13 10:10:51 - INFO - Scraping jobs for Capgemini...
+2026-10-13 10:10:55 - INFO - Found 10 raw cards for Capgemini
+2026-10-13 10:10:55 - INFO - Extracted 0 eligible jobs for Capgemini
+2026-10-13 10:10:55 - INFO - Scraping jobs for Tata Consultancy Services...
+2026-10-13 10:10:57 - ERROR - Failed request for Tata Consultancy Services: Status Code 429
+2026-10-13 10:10:57 - INFO - Scraping jobs for HCLTech...
+2026-10-13 10:11:00 - ERROR - Failed request for HCLTech: Status Code 429
+2026-10-13 10:11:00 - INFO - Scraping jobs for IBM...
+2026-10-13 10:11:03 - INFO - Found 10 raw cards for IBM
+2026-10-13 10:11:03 - INFO - Extracted 0 eligible jobs for IBM
+2026-10-13 10:11:03 - INFO - Scraping jobs for Deloitte...
+2026-10-13 10:11:05 - ERROR - Failed request for Deloitte: Status Code 429
+2026-10-13 10:11:05 - INFO - Scraping jobs for Tech Mahindra...
+2026-10-13 10:11:07 - ERROR - Failed request for Tech Mahindra: Status Code 429
+2026-10-13 10:11:07 - INFO - Scraping complete. Total eligible jobs extracted: 0
+2026-10-13 10:11:07 - INFO - Total jobs returned from scraper: 0
+2026-10-13 10:11:07 - INFO - Execution finished. Found 0 new job alerts.
