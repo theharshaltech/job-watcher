@@ -41916,3 +41916,34 @@
 2026-10-14 07:10:38 - INFO - Scraping complete. Total eligible jobs extracted: 0
 2026-10-14 07:10:38 - INFO - Total jobs returned from scraper: 0
 2026-10-14 07:10:38 - INFO - Execution finished. Found 0 new job alerts.
+2026-10-14 13:21:18 - INFO - =========================================
+2026-10-14 13:21:18 - INFO - AI Job Watcher service started.
+2026-10-14 13:21:18 - INFO - =========================================
+2026-10-14 13:21:18 - INFO - Scraping jobs for Cognizant...
+2026-10-14 13:21:21 - INFO - Found 10 raw cards for Cognizant
+2026-10-14 13:21:21 - INFO - Extracted 0 eligible jobs for Cognizant
+2026-10-14 13:21:21 - INFO - Scraping jobs for Infosys...
+2026-10-14 13:21:24 - ERROR - Failed request for Infosys: Status Code 429
+2026-10-14 13:21:24 - INFO - Scraping jobs for Accenture...
+2026-10-14 13:21:27 - INFO - Found 10 raw cards for Accenture
+2026-10-14 13:21:27 - INFO - Extracted 0 eligible jobs for Accenture
+2026-10-14 13:21:27 - INFO - Scraping jobs for Wipro...
+2026-10-14 13:21:29 - ERROR - Failed request for Wipro: Status Code 429
+2026-10-14 13:21:29 - INFO - Scraping jobs for Capgemini...
+2026-10-14 13:21:32 - INFO - Found 10 raw cards for Capgemini
+2026-10-14 13:21:32 - INFO - Extracted 0 eligible jobs for Capgemini
+2026-10-14 13:21:32 - INFO - Scraping jobs for Tata Consultancy Services...
+2026-10-14 13:21:35 - ERROR - Failed request for Tata Consultancy Services: Status Code 429
+2026-10-14 13:21:35 - INFO - Scraping jobs for HCLTech...
+2026-10-14 13:21:38 - INFO - Found 10 raw cards for HCLTech
+2026-10-14 13:21:38 - INFO - Extracted 0 eligible jobs for HCLTech
+2026-10-14 13:21:38 - INFO - Scraping jobs for IBM...
+2026-10-14 13:21:42 - INFO - Found 10 raw cards for IBM
+2026-10-14 13:21:42 - INFO - Extracted 0 eligible jobs for IBM
+2026-10-14 13:21:42 - INFO - Scraping jobs for Deloitte...
+2026-10-14 13:21:44 - ERROR - Failed request for Deloitte: Status Code 429
+2026-10-14 13:21:44 - INFO - Scraping jobs for Tech Mahindra...
+2026-10-14 13:21:46 - ERROR - Failed request for Tech Mahindra: Status Code 429
+2026-10-14 13:21:46 - INFO - Scraping complete. Total eligible jobs extracted: 0
+2026-10-14 13:21:46 - INFO - Total jobs returned from scraper: 0
+2026-10-14 13:21:46 - INFO - Execution finished. Found 0 new job alerts.
