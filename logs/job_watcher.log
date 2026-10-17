@@ -42431,3 +42431,36 @@
 2026-10-17 01:06:54 - INFO - Scraping complete. Total eligible jobs extracted: 2
 2026-10-17 01:06:54 - INFO - Total jobs returned from scraper: 2
 2026-10-17 01:06:54 - INFO - Execution finished. Found 0 new job alerts.
+2026-10-17 06:38:23 - INFO - =========================================
+2026-10-17 06:38:23 - INFO - AI Job Watcher service started.
+2026-10-17 06:38:23 - INFO - =========================================
+2026-10-17 06:38:23 - INFO - Scraping jobs for Cognizant...
+2026-10-17 06:38:26 - INFO - Found 10 raw cards for Cognizant
+2026-10-17 06:38:26 - INFO - Extracted 0 eligible jobs for Cognizant
+2026-10-17 06:38:26 - INFO - Scraping jobs for Infosys...
+2026-10-17 06:38:28 - INFO - Found 10 raw cards for Infosys
+2026-10-17 06:38:28 - INFO - Extracted 0 eligible jobs for Infosys
+2026-10-17 06:38:28 - INFO - Scraping jobs for Accenture...
+2026-10-17 06:38:31 - INFO - Found 10 raw cards for Accenture
+2026-10-17 06:38:31 - INFO - Extracted 0 eligible jobs for Accenture
+2026-10-17 06:38:31 - INFO - Scraping jobs for Wipro...
+2026-10-17 06:38:33 - ERROR - Failed request for Wipro: Status Code 429
+2026-10-17 06:38:33 - INFO - Scraping jobs for Capgemini...
+2026-10-17 06:38:36 - INFO - Found 10 raw cards for Capgemini
+2026-10-17 06:38:36 - INFO - Extracted 0 eligible jobs for Capgemini
+2026-10-17 06:38:36 - INFO - Scraping jobs for Tata Consultancy Services...
+2026-10-17 06:38:37 - ERROR - Failed request for Tata Consultancy Services: Status Code 429
+2026-10-17 06:38:37 - INFO - Scraping jobs for HCLTech...
+2026-10-17 06:38:40 - INFO - Found 10 raw cards for HCLTech
+2026-10-17 06:38:40 - INFO - Extracted 0 eligible jobs for HCLTech
+2026-10-17 06:38:40 - INFO - Scraping jobs for IBM...
+2026-10-17 06:38:43 - INFO - Found 10 raw cards for IBM
+2026-10-17 06:38:43 - INFO - Extracted 0 eligible jobs for IBM
+2026-10-17 06:38:43 - INFO - Scraping jobs for Deloitte...
+2026-10-17 06:38:46 - INFO - Found 10 raw cards for Deloitte
+2026-10-17 06:38:46 - INFO - Extracted 0 eligible jobs for Deloitte
+2026-10-17 06:38:46 - INFO - Scraping jobs for Tech Mahindra...
+2026-10-17 06:38:48 - ERROR - Failed request for Tech Mahindra: Status Code 429
+2026-10-17 06:38:48 - INFO - Scraping complete. Total eligible jobs extracted: 0
+2026-10-17 06:38:48 - INFO - Total jobs returned from scraper: 0
+2026-10-17 06:38:48 - INFO - Execution finished. Found 0 new job alerts.
