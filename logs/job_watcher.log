@@ -44484,3 +44484,41 @@
 2026-10-27 14:02:47 - INFO - Scraping complete. Total eligible jobs extracted: 2
 2026-10-27 14:02:47 - INFO - Total jobs returned from scraper: 2
 2026-10-27 14:02:47 - INFO - Execution finished. Found 0 new job alerts.
+2026-10-27 19:51:04 - INFO - =========================================
+2026-10-27 19:51:04 - INFO - AI Job Watcher service started.
+2026-10-27 19:51:04 - INFO - =========================================
+2026-10-27 19:51:04 - INFO - Scraping jobs for Cognizant...
+2026-10-27 19:51:06 - INFO - Found 10 raw cards for Cognizant
+2026-10-27 19:51:06 - INFO - Extracted 0 eligible jobs for Cognizant
+2026-10-27 19:51:06 - INFO - Scraping jobs for Infosys...
+2026-10-27 19:51:10 - INFO - Found 10 raw cards for Infosys
+2026-10-27 19:51:10 - INFO - Extracted 1 eligible jobs for Infosys
+2026-10-27 19:51:10 - INFO - Scraping jobs for Accenture...
+2026-10-27 19:51:13 - INFO - Found 10 raw cards for Accenture
+2026-10-27 19:51:13 - INFO - Extracted 0 eligible jobs for Accenture
+2026-10-27 19:51:13 - INFO - Scraping jobs for Wipro...
+2026-10-27 19:51:17 - INFO - Found 10 raw cards for Wipro
+2026-10-27 19:51:17 - INFO - Extracted 1 eligible jobs for Wipro
+2026-10-27 19:51:17 - INFO - Scraping jobs for Capgemini...
+2026-10-27 19:51:19 - INFO - Found 10 raw cards for Capgemini
+2026-10-27 19:51:19 - INFO - Extracted 0 eligible jobs for Capgemini
+2026-10-27 19:51:19 - INFO - Scraping jobs for Tata Consultancy Services...
+2026-10-27 19:51:23 - INFO - Found 10 raw cards for Tata Consultancy Services
+2026-10-27 19:51:23 - INFO - Extracted 0 eligible jobs for Tata Consultancy Services
+2026-10-27 19:51:23 - INFO - Scraping jobs for HCLTech...
+2026-10-27 19:51:25 - INFO - Found 10 raw cards for HCLTech
+2026-10-27 19:51:25 - INFO - Extracted 1 eligible jobs for HCLTech
+2026-10-27 19:51:25 - INFO - Scraping jobs for IBM...
+2026-10-27 19:51:28 - INFO - Found 10 raw cards for IBM
+2026-10-27 19:51:28 - INFO - Extracted 0 eligible jobs for IBM
+2026-10-27 19:51:28 - INFO - Scraping jobs for Deloitte...
+2026-10-27 19:51:31 - INFO - Found 10 raw cards for Deloitte
+2026-10-27 19:51:31 - INFO - Extracted 0 eligible jobs for Deloitte
+2026-10-27 19:51:31 - INFO - Scraping jobs for Tech Mahindra...
+2026-10-27 19:51:34 - INFO - Found 10 raw cards for Tech Mahindra
+2026-10-27 19:51:34 - INFO - Extracted 0 eligible jobs for Tech Mahindra
+2026-10-27 19:51:34 - INFO - Scraping complete. Total eligible jobs extracted: 3
+2026-10-27 19:51:34 - INFO - Total jobs returned from scraper: 3
+2026-10-27 19:51:34 - INFO - Sending Telegram Message...
+2026-10-27 19:51:35 - INFO - Telegram notification sent successfully.
+2026-10-27 19:51:35 - INFO - Execution finished. Found 1 new job alerts.
